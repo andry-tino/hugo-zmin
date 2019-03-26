@@ -1,0 +1,12 @@
+name = "ZMin"
+license = "AGPL v3.0"
+licenselink = "https://github.com/andry-tino/hugo-zmin/blob/master/LICENSE.md"
+description = "A minimal non-bare-bone Hugo theme"
+homepage = "https://andry-tino.github.io/antino.github.io/"
+tags = ["hugo-theme", "blog", "theme", "rmarkdown", "r", "personal", "minimalist"]
+features = ["blog"]
+min_version = "0.18"
+
+[author]
+  name = "Andrea Tino"
+  homepage = "https://andry-tino.github.io/antino.github.io/"

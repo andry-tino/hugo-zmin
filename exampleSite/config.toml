@@ -16,19 +16,19 @@ footnotereturnlinkcontents = "↩"
     name = "Home"
     url = ""
     weight = 1
-[[menu.main]]
+[[menu.nav]]
     name = "About"
     url = "about/"
     weight = 2
-[[menu.main]]
+[[menu.nav]]
     name = "Categories"
     url = "categories/"
     weight = 3
-[[menu.main]]
+[[menu.nav]]
     name = "Tags"
     url = "tags/"
     weight = 4
-[[menu.main]]
+[[menu.nav]]
     name = "Subscribe"
     url = "index.xml"
 

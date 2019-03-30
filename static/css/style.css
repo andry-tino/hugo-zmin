@@ -6,8 +6,26 @@ body {
 }
 
 /* header and footer areas */
-.menu { padding: 0; }
-.menu li { display: inline-block; }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.menu {
+  padding: 0;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 5px;
+  martgin-right: 5px;
+}
+.menu li:first-child {
+  margin-left: 0;
+}
+
 .article-meta, .menu a {
   text-decoration: none;
   background: #eee;
@@ -16,10 +34,15 @@ body {
 }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
+
 footer a { text-decoration: none; }
+
 hr {
   border-style: dashed;
   color: #ddd;
+}
+nav + hr {
+  margin-block-start: 0;
 }
 
 /* code */
@@ -49,3 +72,13 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+.highlight.new:before {
+  content: "new";
+  text-decoration-line: none;
+  text-decoration-color: transparent;
+  text-decoration-style: inherit;
+  background-color: #ececff;
+  padding: .15em .35em;
+  border-radius: .2em;
+}
